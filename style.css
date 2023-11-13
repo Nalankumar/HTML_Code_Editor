@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
+body{
+    background: #DDE6ED;    
+    font-family: 'Merriweather Sans', sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    /* height: 100vh; */
+    padding: 5px;
+}
+
+.container .code{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    height: 33%;
+}
+.container .code .htmlcode{
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+        
+}
+
+.container .code .csscode{
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+    
+}
+.container .code .jscode{
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+}
+
+.jscode,.htmlcode,.csscode{
+    color: yellow;
+}
+
+#htmltext, #csstext, #jstext{
+    color: yellow;
+    user-select: none;
+    background-color: #27374D;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;    
+    
+}
+
+/* #csstext{
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+}
+#jstext{
+    color: green;
+    background-color: black;
+    border-radius: 5px;
+} */
+.title{
+    text-align: center;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-weight: 700;
+
+}
+
+#exeview{
+    background: #27374D;
+    border-radius: 5px;
+    height: calc(100vh - 20vh);
+    color: white;
+}
+
+.execution{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    height:fit-content;
+}
+
+.label{
+    color: black;
+    padding: 10px;
+    margin: 7px 0px;
+    border-radius: 5px;
+    background: #9DB2BF;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+#btn{
+    background: #9DB2BF;
+    width: 75px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px;
+    border: 0px;
+    color: black;
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">HTML Code Editor</h1>
+    <div class="container">
+        
+        <div class="code">
+            <div class="htmlcode">
+                <label for="html" class="label">HTML</label>
+                <textarea name="html" id="htmltext" cols="30" rows="10" onkeyup="codeexe()"></textarea>
+            </div>
+            <div class="csscode">
+                <label for="css" class="label">CSS</label>
+                <textarea name="css" id="csstext" cols="30" rows="10" onkeyup="codeexe()"></textarea>
+            </div>
+            <div class="jscode">
+                <label for="js" class="label">JavaScript</label>
+                <textarea name="js" id="jstext" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="execution">
+            <button id="btn" onclick="codeexe()">Run</button>
+            <iframe id="exeview"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
