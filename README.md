@@ -3,9 +3,6 @@
 # HTML_Code_Editor
 It is an interactive HTML code editor capable of rendering web pages in real-time as users type. The editor streamlines web development by providing instant feedback on code changes, fostering a dynamic learning and testing environment. Features include syntax highlighting, live preview, and seamless integration of HTML, CSS, and JavaScript.
 
-
-Site: [HTML Editor](https://htmleditor101.netlify.app/)
-
 ## Table of Contents
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
