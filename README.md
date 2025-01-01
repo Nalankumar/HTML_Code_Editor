@@ -13,7 +13,9 @@ Site: [HTML Editor](https://htmleditor101.netlify.app/)
 - [License](#license)
 
 ## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+- HTML
+- CSS
+- Javascript
 
 ## Installation
 Here’s the execution process for running the HTML Code Editor:  
